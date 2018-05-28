@@ -1,0 +1,123 @@
+{
+  "settings": {
+    "name": "То be Millionaire",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/bitcoin-1923206-128x128.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "siteUrl": "undefined",
+    "versionFirst": "4.7.1",
+    "uniqCompNum": 1,
+    "versionPublish": "4.7.6",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "להיות מיליונר",
+        "meta_descr": "היום בעידן באינטרנט שלנו, קל מאוד להיות מיליונר!\nאתרים שבעזרתם אנשים פשוטים כמוך, הפכו להיות מיליונרים תוך שנה!\nזה לא איביי וזה לא אמזון",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "22px"
+            },
+            ".mbr-section-title": {
+              "font-size": "48px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".mbr-section-title DIV": {
+              "font-size": "48px"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro2",
+          "_anchor": "intro2-0",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showArrow": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/crypto-currency-3130381-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#8e44ad",
+            "overlayOpacity": 0.9
+          },
+          "form": {
+            "action": "psychonewsletter11@gmail.com",
+            "alerts": {
+              "success": "תודה רבה"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "נשמח גם לדעת אם יש לך משהו ספציפי (נישה) שמעניין אותך"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">שלח</a>",
+          "text": "!היום בעידן באינטרנט שלנו, קל מאוד להיות מיליונר",
+          "title": "אתרים שבעזרתם אנשים פשוטים כמוך, הפכו להיות מיליונרים תוך שנה!<br>זה לא איביי וזה לא אמזון\n<div>?רוצה לדעת איך</div><br><div>תשאיר לנו פרטים, ואנחנו נספר כמה דרכים ובשמחה</div>",
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png"
+        }
+      ]
+    }
+  }
+}
